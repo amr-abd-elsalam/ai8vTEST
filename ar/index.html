@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Ai8V</title>
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/img/fav180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/fav16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/fav16D.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/fav32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/fav32D.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="180x180" href="../assets/img/fav180.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Inter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/css/courses.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+</head>
+
+<body>
+  <!-- تخطّي إلى المحتوى -->
+  <a href="#main-content" class="skip-link">تخطّي إلى المحتوى الرئيسي</a>
+
+  <!-- ═══════════════════════════════════════════
+       شريط التنقل
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar navbar-expand-lg home-navbar sticky-top"
+       aria-label="التنقل الرئيسي">
+    <div class="container">
+
+      <!-- العلامة التجارية -->
+      <a class="navbar-brand home-brand" id="nav-brand-link" href="/ar/index.html">
+        <span class="brand-icon" aria-hidden="true">
+          <i class="bi bi-cpu-fill" aria-hidden="true"></i>
+        </span>
+        <span class="brand-text" id="nav-brand-name"></span>
+      </a>
+
+      <!-- زر القائمة -->
+      <button class="navbar-toggler border-0" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false"
+              aria-label="تبديل القائمة">
+        <i class="bi bi-list fs-4 icon-em-500" aria-hidden="true"></i>
+      </button>
+
+      <!-- الروابط -->
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item">
+            <a class="nav-link" href="/ar/index.html"
+               aria-current="page" data-nav-page="home">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ar/services.html"
+               data-nav-page="services">الخدمات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ar/course/"
+               data-nav-page="courses">الدورات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ar/about.html"
+               data-nav-page="about">من نحن</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn home-btn-outline btn-sm px-3" href="/ar/course/">
+              <i class="bi bi-grid-fill ms-1" aria-hidden="true"></i>تصفّح الكل
+            </a>
+          </li>
+        </ul>
+        <div id="lang-switcher-slot" class="d-flex align-items-center"></div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════
+       المحتوى الرئيسي
+  ═══════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ─── البطل ─── -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-glow"    aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-9 col-xl-8">
+
+            <div class="hero-badge mb-4" aria-hidden="true">
+              <i class="bi bi-stars ms-2" aria-hidden="true"></i><span id="hero-badge-text">تعليم مدعوم بالذكاء الاصطناعي</span>
+            </div>
+
+            <h1 class="hero-title mb-4" id="hero-heading">
+              <span class="hero-title-line"     id="hero-title-line1"></span><br>
+              <span class="hero-title-gradient" id="hero-title-gradient"></span>
+            </h1>
+
+            <p class="hero-subtitle mb-5" id="hero-subtitle"></p>
+
+            <div class="hero-actions d-flex flex-wrap gap-3 justify-content-center">
+              <a href="/ar/course/" class="btn home-btn-primary hero-btn-main">
+                <i class="bi bi-grid-fill ms-2" aria-hidden="true"></i>استكشف الدورات
+              </a>
+              <a href="/ar/about.html" class="btn home-btn-ghost hero-btn-sec">
+                <i class="bi bi-info-circle ms-2" aria-hidden="true"></i>كيف يعمل
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- فاصل موجي -->
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none"
+             xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z"
+                fill="var(--bg-primary)"/>
+        </svg>
+      </div>
+    </section>
+
+
+    <!-- ─── شريط الإحصائيات ─── -->
+    <section class="stats-section" aria-label="إحصائيات المنصة">
+      <div class="container">
+        <div class="stats-bar" id="stats-bar" role="list">
+          <!-- يُبنى بواسطة home-app.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ─── الدورات المميزة ─── -->
+    <section class="home-section featured-section"
+             aria-labelledby="featured-heading">
+      <div class="container">
+
+        <div class="section-header text-center mb-5">
+          <div class="section-badge mb-3" aria-hidden="true">
+            <i class="bi bi-fire ms-2" aria-hidden="true"></i>أحدث الإصدارات
+          </div>
+          <h2 class="section-title" id="featured-heading">الدورات المميّزة</h2>
+          <p class="section-subtitle">
+            دورات مختارة بعناية لتبدأ رحلتك التعليمية
+          </p>
+        </div>
+
+        <div class="row g-4" id="featured-courses-grid" aria-live="polite">
+          <!-- يُبنى بواسطة home-app.js -->
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="/ar/course/" class="btn home-btn-outline px-5">
+            <i class="bi bi-grid ms-2" aria-hidden="true"></i>عرض كل الدورات
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ─── التصنيفات ─── -->
+    <section class="home-section categories-section"
+             aria-labelledby="categories-heading">
+      <div class="container">
+
+        <div class="section-header text-center mb-5">
+          <div class="section-badge mb-3" aria-hidden="true">
+            <i class="bi bi-bookmark-star ms-2" aria-hidden="true"></i>تصفّح حسب الموضوع
+          </div>
+          <h2 class="section-title" id="categories-heading">استكشف التصنيفات</h2>
+          <p class="section-subtitle">اعثر على الدورة المناسبة لأهدافك</p>
+        </div>
+
+        <div class="row g-3 justify-content-center"
+             id="categories-grid" aria-live="polite">
+          <!-- يُبنى بواسطة home-app.js -->
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ─── كيف يعمل ─── -->
+    <section class="home-section how-section"
+             aria-labelledby="how-heading">
+      <div class="container">
+
+        <div class="section-header text-center mb-5">
+          <div class="section-badge mb-3" aria-hidden="true">
+            <i class="bi bi-lightning-charge ms-2" aria-hidden="true"></i>عملية بسيطة
+          </div>
+          <h2 class="section-title" id="how-heading">كيف يعمل</h2>
+          <p class="section-subtitle">ثلاث خطوات لتبدأ التعلّم اليوم</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <!-- الخطوة 1 -->
+          <div class="col-12 col-md-4">
+            <article class="how-card h-100">
+              <div class="how-step-number" aria-hidden="true">01</div>
+              <div class="how-icon mb-3" aria-hidden="true">
+                <i class="bi bi-ui-radios-grid" aria-hidden="true"></i>
+              </div>
+              <h3 class="how-title" id="how-step-title-1">اختار منصتك</h3>
+              <p class="how-desc" id="how-step-desc-1">
+                CourseBase، المكتبة الذكية، أو النظام الكامل.
+              </p>
+            </article>
+          </div>
+
+          <!-- الخطوة 2 -->
+          <div class="col-12 col-md-4">
+            <article class="how-card how-card--accent h-100">
+              <div class="how-step-number" aria-hidden="true">02</div>
+              <div class="how-icon mb-3" aria-hidden="true">
+                <i class="bi bi-gear-wide-connected" aria-hidden="true"></i>
+              </div>
+              <h3 class="how-title" id="how-step-title-2">نبنيها لك</h3>
+              <p class="how-desc" id="how-step-desc-2">
+                باسمك، بدومينك، بمحتواك — كل حاجة مخصصة.
+              </p>
+            </article>
+          </div>
+
+          <!-- الخطوة 3 -->
+          <div class="col-12 col-md-4">
+            <article class="how-card h-100">
+              <div class="how-step-number" aria-hidden="true">03</div>
+              <div class="how-icon mb-3" aria-hidden="true">
+                <i class="bi bi-rocket-takeoff" aria-hidden="true"></i>
+              </div>
+              <h3 class="how-title" id="how-step-title-3">أطلق واكبر</h3>
+              <p class="how-desc" id="how-step-desc-3">
+                ابدأ تبيع كورسات واستخدم الذكاء الاصطناعي — من أول يوم.
+              </p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ─── دعوة لاتخاذ إجراء ─── -->
+    <section class="cta-section" aria-labelledby="cta-heading">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <div class="container cta-content text-center">
+
+        <div class="section-badge mb-4" aria-hidden="true">
+          <i class="bi bi-rocket-takeoff ms-2" aria-hidden="true"></i>ابدأ اليوم
+        </div>
+        <h2 class="cta-title mb-3" id="cta-heading">
+          جاهز تبني منصتك؟
+        </h2>
+        <p class="cta-subtitle mb-5" id="cta-subtitle">
+          خلّينا نحوّل خبرتك لأكاديمية ذكية بهويتك.
+        </p>
+
+        <div class="d-flex flex-wrap gap-3 justify-content-center">
+          <a href="/ar/course/" class="btn home-btn-primary cta-btn-main">
+            <i class="bi bi-grid-fill ms-2" aria-hidden="true"></i>تصفّح كل الدورات
+          </a>
+          <a id="cta-whatsapp-btn" href="#" target="_blank"
+             rel="noopener noreferrer"
+             class="btn home-btn-whatsapp cta-btn-wa"
+             aria-label="تواصل معنا عبر واتساب">
+            <i class="bi bi-whatsapp ms-2" aria-hidden="true"></i>تواصل عبر واتساب
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /#main-content -->
+
+
+  <!-- ═══════════════════════════════════════════
+       التذييل
+  ═══════════════════════════════════════════ -->
+  <footer class="home-footer" role="contentinfo">
+    <div class="container">
+
+      <div class="row g-4 footer-top">
+
+        <!-- عمود العلامة التجارية -->
+        <div class="col-12 col-md-4">
+          <div class="footer-brand mb-3">
+            <i class="bi bi-cpu-fill ms-2 icon-em-500" aria-hidden="true"></i>
+            <span id="footer-brand-name"></span>
+          </div>
+          <p class="footer-tagline" id="footer-tagline">
+            العقل والآلة
+          </p>
+          <a id="footer-whatsapp-link" href="#" target="_blank"
+             rel="noopener noreferrer" class="footer-social-link"
+             aria-label="تواصل معنا عبر واتساب">
+            <i class="bi bi-whatsapp ms-1" aria-hidden="true"></i>واتساب
+          </a>
+          <div id="footer-social-links" class="footer-social-icons mt-2"></div>
+        </div>
+
+        <!-- روابط سريعة -->
+        <div class="col-6 col-md-2 offset-md-1">
+          <p class="footer-col-title" id="footer-heading-quicklinks">روابط سريعة</p>
+          <ul class="footer-links">
+            <li><a id="footer-link-home" href="/ar/index.html" aria-current="page"><span id="footer-link-home-text">الرئيسية</span></a></li>
+            <li><a id="footer-link-services" href="/ar/services.html"><span id="footer-link-services-text">الخدمات</span></a></li>
+            <li><a id="footer-link-courses" href="/ar/course/"><span id="footer-link-courses-text">الكورسات</span></a></li>
+            <li><a id="footer-link-about" href="/ar/about.html"><span id="footer-link-about-text">من نحن</span></a></li>
+          </ul>
+        </div>
+
+        <!-- التصنيفات — تُبنى ديناميكياً -->
+        <div class="col-6 col-md-2">
+          <p class="footer-col-title" id="footer-heading-products">الكورسات</p>
+          <ul class="footer-links" id="footer-categories">
+            <!-- يُبنى بواسطة home-app.js -->
+          </ul>
+        </div>
+
+        <!-- قانوني -->
+        <div class="col-6 col-md-2">
+          <p class="footer-col-title" id="footer-heading-legal">قانوني</p>
+          <ul class="footer-links">
+            <li><a id="footer-link-privacy" href="/ar/legal/privacy.html"><span class="footer-link-text">سياسة الخصوصية</span></a></li>
+            <li><a id="footer-link-terms" href="/ar/legal/terms.html"><span class="footer-link-text">شروط الاستخدام</span></a></li>
+          </ul>
+        </div>
+
+      </div><!-- /.row -->
+
+      <!-- الخريطة -->
+      <div class="row g-4 mt-2">
+        <div class="col-12 col-md-6 col-lg-4 ms-auto" id="footer-map-slot" data-heading-class="footer-col-title"></div>
+      </div>
+
+      <!-- أسفل التذييل -->
+      <div class="footer-bottom">
+        <span id="footer-copyright"></span>
+      </div>
+
+    </div>
+  </footer>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/utils.js"></script>
+    <script src="../assets/js/courses-data.js"></script>
+    <script src="../assets/js/shared-page.js"></script>
+    <script src="../assets/js/home-app.js"></script>
+</body>
+
+</html>

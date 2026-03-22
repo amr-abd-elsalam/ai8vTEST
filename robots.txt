@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /course/paid/
+Disallow: /ar/course/paid/
+Disallow: /api/
+
+Sitemap: https://ai8v.com/sitemap.xml
